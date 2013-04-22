@@ -1,0 +1,50 @@
+body{
+	background: #222;
+	color: #EEE;
+	text-align: center;
+}
+nav
+{
+	background: #FFFFFF; 
+	margin: 5em 10em 1em 10em;
+}
+nav ul
+{
+	backggound: #FFFFFF;
+}
+nav ul li 
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	color: black;
+	font-family: verdana;
+	margin: 1em 1em 1em 1em;
+	padding: 0em 1em 0em 1em;
+	text-decoration: none;
+	background: #FFFFFF;
+}
+nav ul li a:hover
+{
+	background: #8A8966;
+	text-decoration: underline;
+}
+#historia
+{
+	background: rgba(0,0,0,0.6);
+	margin: 1em 3em 2em 1em;
+	padding: 1em 1em 1em 1em;
+	width: 60%	
+}
+#barraLateral
+{
+	background: rgba(0,0,0,0.6);
+	width: 20%	
+}
+#barraLateral, #historia
+{
+background: rgba(0,0,0,0.6);
+	display: inline-block;
+	vertical-align: top;
+}
